@@ -5,7 +5,7 @@
 nav a {
     color: dodgerblue;
     font-style: oblique;
-    font-size: x-large;
+    font-size: xx-large;
 }
 #current-link{
     color:gold;
@@ -66,8 +66,22 @@ p{
     color: whitesmoke;
 }
 #project
-nav a {
+a {
     font-style: oblique;
     font-size: xx-large;
     color: dodgerblue;
+}
+#project
+#current-link{
+    color:gold;
+}
+#technology
+a {
+    font-style: oblique;
+    font-size: xx-large;
+    color: dodgerblue;
+}
+#technology
+#current-link{
+    color:gold;
 }
