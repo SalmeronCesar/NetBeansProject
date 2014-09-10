@@ -2,23 +2,32 @@
     background-color:navy;
 }*/
 
+/* nav a makes the navagation menu to appear dodgerblue, except the the current link/* 
 nav a {
     color: dodgerblue;
     font-style: oblique;
     font-size: xx-large;
 }
+
+/* current link tells me or us what page we are currently on */
 #current-link{
     color:gold;
 }
 
+/* I put .uppercase to make the "About Me" stand out larger*/
 .uppercase{
     text-transform: uppercase;
     font-size: 48px;
 }
+
+/* I put img to 200px to make it look bigger and put height on auto to have the same measurement*/
 img {
     width:200px;
     height:auto;
 }
+
+/* On h1 i put 5px on color black to make the line thin and put padding to the left to make it go somewhat
+in the middle.I put font style to make it look more unique*/ 
 h1 {
     border-bottom: 5px solid black;
     padding: 10px;
@@ -26,17 +35,24 @@ h1 {
     margin-right: 60%;
     font-style: oblique;
 }
+
+/* The background image link will make the image appear on the background in the About page*/ 
 body{
     background-image: url(http://cdn.windows7themes.net/wallpaper/call-of-duty-hd-wallpaper-06.jpg);
     background-size: cover;
 }
+
+/* i put p to make the paragraph of the About Me page appear black*/
 p{
     color:black;
 }
+
+/* body p makes the font size of the About Me page appear as xx large*/
 body p { 
     font-size:x-large;
 }
 
+/* #technology is the link that is connected to the technology page and puts the bakground image and size*/
 #technology{
     background-image: url(http://www.cssdebutant.com/include/images/css-code4.jpg);
     background-size: cover;
@@ -46,6 +62,8 @@ body p {
     background-size:cover;
 }
 
+/*#techimage is a current link that is connected to the technology page and tell the technology page
+to put this image height to this website page and the width as well*/
 #techimage{
     height: 100%;
     width: auto;
