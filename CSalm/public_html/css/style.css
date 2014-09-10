@@ -8,7 +8,7 @@ nav a {
     font-size: x-large;
 }
 #current-link{
-    color:black;
+    color:gold;
 }
 
 .uppercase{
@@ -38,15 +38,36 @@ body p {
 }
 
 #technology{
-    background-image: url(http://ahdimages.com/wp-content/uploads/2014/03/backgrounds-for-websites-3.jpg);
+    background-image: url(http://www.cssdebutant.com/include/images/css-code4.jpg);
     background-size: cover;
 }
 #project{
-    background-image: url(http://www.yucapro.com/images/background13.jpg);
-    background-size: cover;
+    background-image: url(http://www.themesltd.com/backgrounds/hipster/twinkle_twinkle_stars.jpg);
+    background-size:cover;
 }
 
 #techimage{
     height: 100%;
     width: auto;
+}
+#technology
+p {
+    font-size: xx-large;
+    color: black;
+}
+#technology
+img {
+    width:800px;
+    height:auto;    
+}
+#project
+p{
+    font-size: xx-large;
+    color: whitesmoke;
+}
+#project
+nav a {
+    font-style: oblique;
+    font-size: xx-large;
+    color: dodgerblue;
 }
